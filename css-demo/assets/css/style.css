@@ -1,0 +1,27 @@
+/*-- CSS Demo Stylesheet --*/
+
+
+/*---------------Box Sizing---------------*/
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*---------------Global Styles---------------*/
+
+body{
+    margin:0;
+    font-family: 'Cairo', Arial, sans-serif;;
+}
+
+header.primary{
+background-color:#FDAB85;
+text-align:center;
+color:#ffffff;
+text-shadow: 2px 2px #000000;
+}
