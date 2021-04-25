@@ -33,17 +33,18 @@ body {
 
 /*---------------------Header------------------------*/
 
-header.primary{
+header.primary {
   background-color: #333061;
-  text-align:center;
-  color:#687a87;
+  text-align: center;
+  color: #fff;
   text-shadow: 2px 2px #000000;
-  padding: 40px 40px 20px 40px;
+  padding: 6em 2em;
+  position: relative;
 }
 
 header.primary::before {
   content: "";
-  background-image: ("../img/dragon.jpg")
+  background-image: url("../img/earth.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -56,19 +57,21 @@ header.primary::before {
 header.primary h1{
   font-size:3.2rem;
   margin: 50px 10px 20px 10px;
+  positiong: relative;
 }
 
 header.primary h1 a{
   display:block;
   width:60vw;
   margin:0 auto;
-  color: #687a87;
+  color: #fff;
   text-decoration:none;
 }
 
 header.primary h2{
   font-size:1.5rem;
   margin: 20px auto 40px;
+  position: relative;
 }
 
 header.primary nav{
@@ -78,6 +81,7 @@ header.primary nav{
 }
 
 header.primary nav ul{
+  position:relative;
   display:flex;
   flex-direction:row;
   justify-content:space-between;
@@ -92,7 +96,7 @@ header.primary nav a:link, header.primary nav a:visited{
   color:#fff;
   text-decoration:none;
   background-color:#000000;
-  background-color:rgba(0,0,0,.4);
+  background-color:rgba(142, 166, 184, 0.4);
   padding:8px 50px;
   border-radius: 20px;
   transition:.5s;
@@ -167,6 +171,8 @@ section#articles h2 {
 
 #articles article img{
   border-radius:3px;
+  width: 300px;
+  height: auto;
 }
 
 #articles article a:link, #articles article a:visited{
@@ -198,7 +204,7 @@ blockquote{
 }
 
 #blockquote article.background h2{
-  color: #c0c0c0;
+  color: #33536b;
   text-align: center;
 }
 
